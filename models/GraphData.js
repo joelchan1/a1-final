@@ -6,7 +6,7 @@ var GraphDataSchema = new mongoose.Schema({
   Expenses: String
 }, 
 {
-  collection: 'graph-data-collection'
+  collection: 'ems-calls-collection'
 });
 
 mongoose.model('GraphData', GraphDataSchema);

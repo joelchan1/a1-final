@@ -9,7 +9,7 @@ app.controller('MainController', ['$scope', '$http',  function($scope, $http) {
   var table = google.visualization.arrayToDataTable(dataArray, false);
   var chart = new google.visualization.LineChart(document.getElementById('chart_div'));
   
-  var options = {'title':'Company Sales'}
+  var options = {'title':'EMS Calls for the week of 10/19/2015 for RCFD Engine 9 and 10'}
   chart.draw(table, options);
 
   });

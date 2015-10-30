@@ -1,0 +1,1 @@
+mongoimport --db ems-calls-db --collection ems-calls-collection --type json --file data.json --jsonArray
